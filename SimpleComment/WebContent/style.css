@@ -1,0 +1,51 @@
+@CHARSET "EUC-KR";
+#comment {
+	margin: 20px 20px 20px 20px;
+	border: 1px solid grey;
+}
+
+#comment table {
+	width: 100%;
+	height: 100%;
+}
+
+#comment textarea {
+	width: 100%;
+	height: 50px;
+}
+
+#commentInsert {
+	margin: 10px 10px 10px 10px;
+} 
+
+#commentList {
+	margin: 20px 20px 20px 20px;
+	height: auto
+}
+
+#commentList .author {
+	height: 26px;
+	padding: 5px 0 0 9px;
+	background-color: #585858;
+	color: white;
+	font-weight: bold
+}
+
+#commentList .commnetView {
+	border: 1px solid #ccc;
+	width: 380px;
+	margin: 10px auto
+}
+
+#commentList .txt {
+	border: 1px solid #ccc;
+	padding: 10px 10px;
+	margin: 10px auto
+}
+
+#commentList .function {
+	text-align: right;
+	padding-right: 10px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
